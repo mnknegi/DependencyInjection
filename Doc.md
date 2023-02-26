@@ -7,9 +7,9 @@ It is a software design pattern in which an object receives another objects that
 
 ## Index
 * Dependency Injection(#Dependency-Injection)
-    + Initializer Injection(#Dependency-Injection)
-    + Setter Injection(#Setter-Injection)
-    + Interface Injection(#Interface-Injection)
+    + [Initializer Injection](#Dependency-Injection)
+    + [Setter Injection](#Setter-Injection)
+    + [Interface Injection](#Interface-Injection)
 
 ![Dependency Injection](DependencyInjection.png)
 
@@ -25,3 +25,10 @@ Dependency Inversion is of following types.
 In this way we can pass all the dependencies in the client class using initializer parameters.
 
 Example: [Initializer Injection or Constructor Injection](DependencyInjection.playground/Sources/InitializerInjection.swift)
+
+
+## Setter Injection
+
+In this way we can pass all the dependencies in the client class using property or a setter method.
+
+Example: [Setter Injection](DependencyInjection.playground/Sources/SetterInjection.swift)
