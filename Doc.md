@@ -5,4 +5,23 @@ It is a software design pattern in which an object receives another objects that
 
 > Passing a dependency(service) into an object(client) using an injector.
 
-![Dependency Injection](DependencyInjection.png | width = 30)
+## Index
+* Dependency Injection(#Dependency-Injection)
+    + Initializer Injection(#Dependency-Injection)
+    + Setter Injection(#Setter-Injection)
+    + Interface Injection(#Interface-Injection)
+
+![Dependency Injection](DependencyInjection.png)
+
+To implement Dependency Inversion we use Inversion of Control(IoC) principle. In this we aim to construct all the responsibilities of the class to its dependencies. 
+Dependency Inversion is of following types.
+
+* Initializer Injection or Constructor Injection.
+* Setter Injection (Property Injection or Method Injection).
+* Interface Injection
+
+## Initializer Injection
+
+In this way we can pass all the dependencies in the client class using initializer parameters.
+
+Example: [Initializer Injection or Constructor Injection](DependencyInjection.playground/Sources/InitializerInjection.swift)
