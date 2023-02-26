@@ -5,5 +5,4 @@ It is a software design pattern in which an object receives another objects that
 
 > Passing a dependency(service) into an object(client) using an injector.
 
-![Dependency Injection](DependencyInjection.png)
-img[alt=Dependency Injection] { width: 200px; }
+![Dependency Injection](DependencyInjection.png | width = 30)
