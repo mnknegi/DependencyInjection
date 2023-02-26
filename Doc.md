@@ -32,3 +32,10 @@ Example: [Initializer Injection or Constructor Injection](DependencyInjection.pl
 In this way we can pass all the dependencies in the client class using property or a setter method.
 
 Example: [Setter Injection](DependencyInjection.playground/Sources/SetterInjection.swift)
+
+
+## Interface Injection
+
+In this way the client confirms to the protocol used to inject the dependencies.
+
+Example: [Interface Injection](DependencyInjection.playground/Sources/InterfaceInjection.swift)
